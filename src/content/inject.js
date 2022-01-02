@@ -109,7 +109,7 @@ function rawContractUrl(url) {
 
 function isMaybeContract(url) {
   const extension = url.split(".").pop();
-  return extension == "yaml" || extension == "json";
+  return extension == "yaml" || extension == "json" || extension == "yml";
 }
 
 function cleanUrl(url) {
